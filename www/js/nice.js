@@ -5,11 +5,23 @@ document.addEventListener("DOMContentLoaded", (load) => {
 
   let content = ''
   let parentUsers = document.getElementById('team');
+
   let tm  = 0.1;
   let dummyImage = 'https://avatar.iran.liara.run/public';
   let nameLastName = 'Jon';
   let nameFirstName = 'Doe';
   let nameCompany = 'Carpenter';
+  
+
+
+
+
+
+
+
+
+
+
 
   fetch('https://dummyjson.com/users')
   .then(res => res.json())
